@@ -1,0 +1,18 @@
+{
+  "webservice": {
+		"server": {
+			"port": 50000,
+			"ssl": {
+				"active":false,
+				"privateKey": "",
+				"certificate": ""
+			}
+		},
+		"publicURL": {
+			"hostname": "127.0.0.1",
+			"port": 50000 
+		},
+		"projectFolderPath": "test-projects",
+		"testProjectExpireTime": 0
+	}
+}
