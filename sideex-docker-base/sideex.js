@@ -1,6 +1,6 @@
 const { exec, execSync, spawn } = require('child_process');
 
-let version = "3.3.11";
+let version = "3.3.12";
 exec(`npm i -g @sideex/webservice@${version}`, (err, stdout, stderr) => {
   console.log(stdout.trim())
   if(err) {
