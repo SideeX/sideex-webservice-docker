@@ -1,7 +1,7 @@
 {
     "webservice": {
         "server": {
-            "port": 50000,
+            "port": 50000
         },
         "publicURL": {
             "hostname": "127.0.0.1",
