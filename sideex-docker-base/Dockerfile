@@ -51,9 +51,6 @@ RUN useradd -ou 0 -g 0 sideex \
 ENV HOME=/home/sideex
 
 COPY entry_point.sh /opt/bin/
-COPY sideex.js /opt/sideex-webservice/
-
-RUN node /opt/sideex-webservice/sideex.js
 
 #======================================
 # Add Supervisor configuration file
